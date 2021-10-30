@@ -127,6 +127,7 @@ def DNSLookup_pydns(name, qtype, strict=True, timeout=20):
 def DNSLookup_dnspython(name, qtype, tcpfallback=True, timeout=30):
     retVal = []
     try:
+        qtype = qtype.upper()
         # FIXME: how to disable TCP fallback in dnspython if not tcpfallback?
         answers = dns.resolver.query(name, qtype, lifetime=timeout)
         for rdata in answers:
