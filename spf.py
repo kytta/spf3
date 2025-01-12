@@ -1742,7 +1742,7 @@ def quote_value(s):
     >>> quote_value('abc"def')
     '"abc\\\\"def"'
 
-    >>> quote_value(r'abc\def')
+    >>> quote_value(r'abc\\def')
     '"abc\\\\\\\\def"'
 
     >>> quote_value('abc..def')
