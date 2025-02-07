@@ -27,16 +27,16 @@ except ImportError:  # If dnspython is not installed, require PyDNS
     else:
         install_req = ['Py3DNS', 'authres']
 
-setup(name='pyspf',
+setup(name='spf3',
       version='2.0.15',
       description=DESC,
       long_description=LONG_DESC,
       long_description_content_type="text/markdown",
       author='Terence Way',
       author_email='terry@wayforward.net',
-      maintainer="Stuart D. Gathman",
-      maintainer_email="stuart@gathman.org",
-      url='https://github.com/sdgathman/pyspf/',
+      maintainer="Nikita Karamov",
+      maintainer_email="me@kytta.dev",
+      url='https://github.com/kytta/spf3/',
       license='Python Software Foundation License',
       py_modules=['spf'],
       keywords = ['spf','email','forgery'],

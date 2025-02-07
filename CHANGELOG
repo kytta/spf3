@@ -1,5 +1,6 @@
 Version 2.0.15
   * Switch to setuptools because "it's the future"
+  * Rename project to spf3, as it is now a fork
 
 Version 2.0.14 - January 1, 2020
   * Fix doctest for CNAME fixes to work with python and python3

@@ -1,5 +1,5 @@
-SPF
-===
+SPF3
+====
 
 Sender-Policy-Framework queries in Python
 -----------------------------------------
@@ -194,6 +194,7 @@ http://www.wayforward.net/spf/
 Maintainers:
 Stuart Gathman stuart@gathman.org
 Scott Kitterman scott@kitterman.com
-http://cheeseshop.python.org/pypi/pyspf
+Nikita Karamov me@kytta.dev
+https://pypi.org/project/spf3/
 
-Code is currently hosted at https://github.com/sdgathman/pyspf/
+Code is currently hosted at https://github.com/kytta/spf3/

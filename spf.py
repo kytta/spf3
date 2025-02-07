@@ -26,7 +26,7 @@ For more information about SPF, a tool against email forgery, see
     http://www.open-spf.org/
 
 For news, bugfixes, etc. visit the home page for this implementation at
-    https://pypi.org/project/pyspf/
+    https://pypi.org/project/spf3/
     https://github.com/sdgathman/pymilter/
     http://www.wayforward.net/spf/
 """
@@ -42,9 +42,9 @@ For news, bugfixes, etc. visit the home page for this implementation at
 #
 # See pyspf_changelog.txt for earlier CVS commits.
 
-__author__ = "Terence Way, Stuart Gathman, Scott Kitterman"
-__email__ = "pyspf@openspf.org"
-__version__ = "2.0.14"
+__author__ = "Terence Way, Stuart Gathman, Scott Kitterman, Nikita Karamov"
+__email__ = "me@kytta.dev"
+__version__ = "2.0.15"
 MODULE = 'spf'
 
 USAGE = """To check an incoming mail request:
