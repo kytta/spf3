@@ -1,0 +1,31 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [v2]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: "1" # Make tools pretty.
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  PIP_NO_PYTHON_VERSION_WARNING: "1"
+
+permissions: {}
+
+jobs:
+  build:
+    name: Build & verify package
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: hynek/build-and-inspect-python-package@v2
+        id: baipp
+        with:
+          skip-wheel: 'true'
