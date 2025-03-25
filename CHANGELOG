@@ -1,3 +1,7 @@
+Version 2.0.16
+  * add explicit license
+  * fix syntax warning in Python 3.12+
+
 Version 2.0.15
   * Switch to setuptools because "it's the future"
   * Rename project to spf3, as it is now a fork

@@ -28,7 +28,7 @@ except ImportError:  # If dnspython is not installed, require PyDNS
         install_req = ['Py3DNS', 'authres']
 
 setup(name='spf3',
-      version='2.0.15',
+      version='2.0.16',
       description=DESC,
       long_description=LONG_DESC,
       long_description_content_type="text/markdown",
