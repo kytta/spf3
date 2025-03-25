@@ -44,7 +44,7 @@ For news, bugfixes, etc. visit the home page for this implementation at
 
 __author__ = "Terence Way, Stuart Gathman, Scott Kitterman, Nikita Karamov"
 __email__ = "me@kytta.dev"
-__version__ = "2.0.16"
+__version__ = "2.0.17"
 MODULE = 'spf'
 
 USAGE = """To check an incoming mail request:
