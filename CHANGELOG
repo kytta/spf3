@@ -1,3 +1,9 @@
+Unreleased
+  * fix split() on empty-when-stripped strings
+  * allow lowercase qtype in DNS lookups
+  * fix doctest registration in Python 3.13
+  * fix compatibility with dnspython v2
+
 Version 2.0.17
   * publish wheels to PyPI
 
